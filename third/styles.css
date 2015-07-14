@@ -1,104 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-	background-color: #D2D5D9
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
 }
 
 .main {
-	height: 1200px;
-	width: 1000px;
-	margin: 5% auto;
-	padding: 0 auto;
-	background-color: white;
-	border: 1px solid black;
+  height: 100%;
+  width: 80%;
+  margin: 5% auto;
+  padding: 1px;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .header {
-	height: 98px;
-	width: 998px;
+	height: 8%;
 	background-color: black;
-	position: relative;
-	top: 1px;
-	left: 1px;
+}
+
+.icon {
+	color: white;
+	font-family: Arial;
+	font-size: 22px;
+	float: left;
+	margin: 2% 3%;
 }
 
 .apple {
-	color: white;
-	font-family: Arial;
-	font-size: 24px;
-	position: relative;
-	top: 36px;
-	left: 50px;
+	margin-left: 6%;
 }
 
-.google {
-	color: white;
-	font-family: Arial;
-	font-size: 24px;
-	position: relative;
-	left: 150px;
-	top: 9px;
-}
-
-.leftCol {
-	height: 1000px;
-	width: 500px;
+.section {
+	height: 82%;
 	background-color: white;
-	position: relative;
+	float: left;
+}
+
+.left {
+	height: 100%;
+	width: 50%;
 }
 
 .articleName {
-	position: relative;
-	left: 30px;
-	top: 50px;
-	font-family: Arial;
-	font-size: 56px;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 5%;
 }
 
-.textBlock1 {
-	position: relative;
-	left: 30px;
-	top: 60px;
-}
-
-p {
-	width: 440px;
-	font-family: Arial;
-	font-size: 16px;
-}
-
-.rightCol {
-	height: 1000px;
-	width: 500px;
-	background-color: white;
-	position: relative;
-	left: 500px;
-	top: -1000px;
+.textBlock {
+	text-align: left;
+	font-size: 12px;
+	margin: 0 5%;
 }
 
 .grayBox {
-	height: 340px;
-	width: 450px;
+	height: 50%;
+	width: 90%;
+	margin: 3% 5%;
 	background-color: gray;
-	position: relative;
-	top: 50px;
-	left: 25px;
 }
 
-.textBlock2 {
+.right {
+	height: 100%;
+	width: 50%;
+	float: right;
 	position: relative;
-	left: 30px;
-	top: 60px;
+	bottom: 100%;
 }
 
 .footer {
-	height: 98px;
-	width: 998px;
+	height: 9.4%;
+	width: 100%;
 	background-color: black;
-	position: relative;
-	top: -997px;
-	left: 1px;
+	float: right;
 }
+
+
 
