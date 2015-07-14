@@ -1,127 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-	background-color: #D2D5D9
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
 }
 
 .main {
-	height: 1200px;
-	width: 1000px;
-	margin: 5% auto;
-	padding: 0 auto;
-	background-color: #D2D5D9;
-	border: 1px solid black;
+  height: 100%;
+  width: 80%;
+  margin: 5% auto;
+  padding: 1px;
+  background-color: lightgray;
+  border: 1px solid black;
 }
 
 .topBox {
-	height: 330px;
-	width: 900px;
+	height: 30%;
+	width: 86%;
 	background-color: white;
-	position: relative;
-	top: 50px;
-	left: 50px;
+	margin: 2% auto;
 }
 
 .textBox1 {
-	height: 150px;
-	width: 850px;
-	background-color: white;
-	position: relative;
-	top: 25px;
-	left: 25px;
+	height: 70%;
+	margin: 0 5%;
+	text-align: left;
 	font-family: Arial;
-	font-size: 24px;
+	font-size: 19px;
+	position: relative;
+	top: 7%;
 }
 
-.redButton {
-	height: 60px;
-	width: 150px;
+.Button {
+	height: 20%;
+	width: 15%;
+	margin-left: 5%;
+	color: white;
+	float: left;
+	font-size: 16px;
+	font-family: Arial;
+	text-align: center;
+	line-height: 2.6;
+}
+
+.red {
 	background-color: red;
-	position: relative;
-	top: 80px;
-	left: 25px;
-	color: white;
-	font-family: Arial;
-	font-size: 28px;
-	text-align: center;
-	line-height: 2;
 }
 
-.blueButton {
-	height: 60px;
-	width: 150px;
+.blue {
 	background-color: blue;
-	position: relative;
-	left: 200px;
-	top: 20px;
-	color: white;
-	font-family: Arial;
-	font-size: 28px;
-	text-align: center;
-	line-height: 2;
 }
 
 .bottomBox {
-	height: 600px;
-	width: 900px;
+	height: 50%;
+	width: 86%;
 	background-color: white;
-	position: relative;
-	top: 100px;
-	left: 50px;
+	margin: 0 auto;
 }
 
 .blackBox {
-	height: 350px;
-	width: 850px;
+	height: 50%;
+	width: 90%;
 	background-color: black;
+	margin: 0 auto;
 	position: relative;
-	top: 25px;
-	left: 25px;
-}
-
-.insertImg {
+	top: 5%;
 	color: white;
 	font-family: Arial;
 	font-size: 36px;
 	text-align: center;
-	line-height: 9;
+	line-height: 5;
 }
 
 .textBox2 {
-	height: 150px;
-	width: 850px;
-	background-color: white;
-	position: relative;
-	top: 50px;
-	left: 25px;
+	height: 30%;
+	width: 90%;
+	margin: 0 5%;
+	text-align: left;
 	font-family: Arial;
-	font-size: 24px;
+	font-size: 19px;
+	position: relative;
+	top: 4%;
 }
 
 .footer {
-	height: 70px;
-	width: 1000px;
+	height: 10%;
 	background-color: black;
 	position: relative;
-	top: 176px;
+	top: 4.8%;
 }
 
-.apple {
+.icon {
 	color: white;
 	font-family: Arial;
 	font-size: 24px;
-	position: relative;
-	top: 25px;
-	left: 750px;
+	float: right;
+	margin: 2.5% 3%;
 }
 
 .google {
-	color: white;
-	font-family: Arial;
-	font-size: 24px;
-	position: relative;
-	left: 850px;
-	top: -2px;
+	margin-right: 8%;
 }
